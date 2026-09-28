@@ -1,0 +1,77 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 1rem;
+}
+
+section div{
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.JudulPendaftaran{
+    color: blue;
+}
+
+.inputNama, .inputJurusan, .inputEkskul{
+    height: 35px;
+    width: 600px;
+}
+
+
+.ButtonSubmit {
+    text-align: center;
+}
+
+.addButton{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px
+    ;
+}
+
+.TombolHps{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px
+    ;
+}
+
+.TombolEdt{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px
+    ;
+}
+
+
+table{
+    border: 2px solid ;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: blue;
+    color: white;
+    
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 1rem;
+}
+

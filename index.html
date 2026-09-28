@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DAFTAR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="JudulPendaftaran">
+        Form Pendaftaran Ekskul
+        <br>
+        SMK Letris Pamulang
+    </h1>
+
+    
+    <section>
+        <form class="formPendaftaran">
+            <div>
+                <label>Nama Lengkap:</label><br>
+                <input class="inputNama" type="text" placeholder="Masukan nama siswa">
+            </div>
+            
+            <div>
+                <label>Kelas:</label>
+                <div>
+                    <input type="radio" name="kelas" value="X"> X
+                    <input type="radio" name="kelas" value="XI"> XI
+                    <input type="radio" name="kelas" value="XII"> XII
+                </div>
+            </div>
+    
+            <div>
+                <label>Jurusan:</label><br>
+                <select class="inputJurusan" name="" id="">
+                    <option value="PPLG">PPLG</option>
+                    <option value="DKV">DKV</option>
+                    <option value="TKJT">TKJT</option>
+                    <option value="AKL">AKL</option>
+                    <option value="BDP">BDP</option>
+                    <option value="MPLB">MPLB</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>Pilihan Ekskul</label><br>
+                <select class="inputEkskul" name="" id="">
+                    <option value="animasi">animasi</option>
+                    <option value="paskibra">paskibra</option>
+                    <option value="volley">volley</option>
+                    <option value="baskey">baskey</option>
+                    <option value="futsal">futsal</option>
+                    <option value="letsin">letsin</option>
+                    <option value="pmr">pmr</option>
+                    <option value="dance modern">dance modern</option>
+                </select>
+            </div>
+    
+            <div class="ButtonSubmit">
+                <button type="submit" class="addButton">Tambah Data</button>
+            </div>
+        </form>
+    </section>
+
+
+    <h1 class="JudulTabel">Data Pendaftaran siswa</h1>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>NAMA</th>
+                    <th>KELAS</th>
+                    <th>JURUSAN</th>
+                    <th>EKSKUL</th>
+                    <th>AKSI</th>
+                </tr>
+            </thead>
+            <tbody class="DataPendaftaran"></tbody>
+        </table>
+    </section>
+
+
+    
+</body>
+</html>
